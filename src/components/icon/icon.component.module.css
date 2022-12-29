@@ -1,0 +1,9 @@
+.icon__link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--title-color);
+}
+
+.icon__link:hover {
+  color: var(--title-color-dark);
+}

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
   transition: 0.3s;
@@ -16,7 +16,7 @@
   color: var(--title-color-dark);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .nav__icon {
     display: block;
     font-size: 1.2rem;

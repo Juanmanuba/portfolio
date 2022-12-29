@@ -1,3 +1,15 @@
 .subtitle {
   font-size: var(--h2-font-size);
+  position: relative;
+  padding-left: 4rem;
+  font-weight: var(--font-medium);
+}
+.subtitle::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  background-color: var(--text-color);
+  left: 0;
+  top: 1.05rem;
 }
