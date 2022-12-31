@@ -6,13 +6,11 @@ import MouseScroll from './components/mouse-scroll/mouse-scroll.component';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.container}>
       <NavBar />
-      <main className={styles.main}>
-        <Hero />
-        <MouseScroll />
-        <AboutMe />
-      </main>
+      <Hero />
+      <MouseScroll />
+      <AboutMe />
     </div>
   );
 }

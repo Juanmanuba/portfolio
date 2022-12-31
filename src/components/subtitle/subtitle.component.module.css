@@ -1,5 +1,5 @@
 .subtitle {
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   position: relative;
   padding-left: 4rem;
   font-weight: var(--font-medium);
@@ -7,11 +7,30 @@
 .subtitle::before {
   content: '';
   position: absolute;
-  width: 50px;
+  width: 60px;
   height: 1px;
   background-color: var(--text-color);
   left: 0;
-  top: 1.05rem;
+  top: 0.9rem;
+}
+@media screen and (max-width: 992px) {
+  .subtitle {
+    font-size: var(--normal-font-size);
+  }
+  .subtitle::before {
+    width: 50px;
+    top: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subtitle {
+    font-size: var(--normal-font-size);
+  }
+  .subtitle::before {
+    width: 50px;
+    top: 0.6rem;
+  }
 }
 
 @media screen and (max-width: 362px) {
@@ -19,7 +38,7 @@
     font-size: var(--normal-font-size);
   }
   .subtitle::before {
-    width: 40px;
+    width: 50px;
     top: 0.7rem;
   }
 }

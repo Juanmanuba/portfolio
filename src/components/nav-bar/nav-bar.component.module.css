@@ -24,7 +24,7 @@
 .nav__list {
   display: flex;
   column-gap: 1rem;
-  padding-right: 50px;
+  padding-right: 20px;
 }
 
 .nav__close,
@@ -42,7 +42,7 @@
     right: 0;
     width: 100%;
     background-color: var(--body-color);
-    padding: 2rem 1.5rem 4rem;
+    padding: 2rem 0rem 4rem;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;

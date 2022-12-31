@@ -9,6 +9,33 @@
   border-radius: 30px;
 }
 
-.iconImg {
-  font-size: var(--h2-font-size);
+.iconImg,
+.boxTitle {
+  font-size: var(--h3-font-size);
+}
+
+.boxText {
+  font-size: var(--small-font-size);
+}
+
+@media screen and (max-width: 1250px) {
+  .iconImg,
+  .boxTitle {
+    font-size: var(--normal-font-size);
+  }
+  .aboutBox {
+    width: 120px;
+    height: 96px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .iconImg,
+  .boxTitle {
+    font-size: var(--normal-font-size);
+  }
+  .aboutBox {
+    width: 120px;
+    height: 96px;
+  }
 }

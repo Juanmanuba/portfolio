@@ -44,9 +44,8 @@ export default function AboutMe() {
           <Paragraph>
             Enthusiastic about web programming, design of control algorithms and
             game programming. Good interpersonal skills to be an excellent team
-            player capable of coordinating large development teams in a work
-            environment. Willing to learn and obtain new skills. Responsible and
-            determined.
+            player capable of coordinating large development teams. Willing to
+            learn and obtain new skills.
           </Paragraph>
           <Button className={styles.button}>
             Download CV <span />
