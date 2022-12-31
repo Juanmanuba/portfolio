@@ -1,0 +1,68 @@
+.areaBox {
+  width: 500px;
+  padding: 40px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+}
+
+.boxTitle {
+  font-size: var(--h2-font-size);
+}
+
+.areaBullets {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 150px;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .areaBox {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .areaBullets {
+    gap: 30px 100px;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .areaBullets {
+    gap: 30px 70px;
+  }
+  .areaBox {
+    height: 270px;
+    row-gap: 10px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .areaBullets {
+    gap: 20px 50px;
+  }
+  .areaBox {
+    height: 220px;
+    row-gap: 8px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 408px) {
+  .areaBullets {
+    gap: 10px 20px;
+  }
+  .areaBox {
+    height: 200px;
+    row-gap: 4px;
+    padding: 5px;
+  }
+}

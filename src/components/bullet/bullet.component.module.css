@@ -1,0 +1,32 @@
+.bullet {
+  display: flex;
+  flex-direction: column;
+}
+
+.bulletTitle {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.iconImg,
+.bulletSkill {
+  font-size: var(--h3-font-size);
+}
+
+.bulletLevel {
+  align-self: flex-start;
+  margin-left: 30px;
+}
+
+.iconImg {
+  margin-top: 0.5rem;
+  font-weight: var(--font-semi-bold);
+}
+
+@media screen and (max-width: 992px) {
+  .bulletLevel {
+    margin-left: 25px;
+  }
+}
