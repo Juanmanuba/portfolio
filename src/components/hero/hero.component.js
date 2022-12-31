@@ -15,7 +15,7 @@ export default function Hero() {
         <Icon link="https://github.com/Juanmanuba" icon="uil-github-alt" />
         <Icon link="https://twitter.com/Juamanuba" icon="uil-twitter-alt" />
       </div>
-
+      <img src={images.kkk} alt="" className={styles.home__img} />
       <div className={styles.leftSideText}>
         <Title>Juan Nuñez</Title>
         <Subtitle>Frontend Developer</Subtitle>
@@ -25,7 +25,6 @@ export default function Hero() {
         </Paragraph>
         <Button className={styles.button}>Say Hello</Button>
       </div>
-      <img src={images.kkk} alt="" className={styles.home__img} />
     </section>
   );
 }

@@ -13,3 +13,13 @@
   left: 0;
   top: 1.05rem;
 }
+
+@media screen and (max-width: 362px) {
+  .subtitle {
+    font-size: var(--normal-font-size);
+  }
+  .subtitle::before {
+    width: 40px;
+    top: 0.7rem;
+  }
+}
