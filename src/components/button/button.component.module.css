@@ -22,7 +22,8 @@ button {
   margin-left: var(--mb-0-5);
 }
 
-.button--flex {
-  display: inline-flex;
-  align-items: center;
+@media screen and (max-width: 768px) {
+  .button {
+    align-self: center;
+  }
 }

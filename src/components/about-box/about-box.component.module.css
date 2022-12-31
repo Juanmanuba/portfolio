@@ -1,0 +1,14 @@
+.aboutBox {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+
+.iconImg {
+  font-size: var(--h2-font-size);
+}
