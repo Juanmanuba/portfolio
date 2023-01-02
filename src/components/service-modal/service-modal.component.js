@@ -13,8 +13,8 @@ export default function ServiceModal({ title, icon, bulletsText, hideModal }) {
         eyes closed.
       </Paragraph>
       <ul className={styles.bullets}>
-        {bulletsText.map((item) => {
-          return <ServiceItem {...item} />;
+        {bulletsText.map((item, index) => {
+          return <ServiceItem key={index} {...item} />;
         })}
       </ul>
 

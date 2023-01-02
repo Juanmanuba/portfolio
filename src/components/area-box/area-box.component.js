@@ -3,8 +3,8 @@ import styles from './area-box.component.module.css';
 import Bullet from '../bullet/bullet.component';
 
 export default function AreaBox({ title, bullets }) {
-  const showBullets = bullets.map((item) => {
-    return <Bullet {...item} />;
+  const showBullets = bullets.map((item, index) => {
+    return <Bullet key={index} {...item} />;
   });
 
   return (

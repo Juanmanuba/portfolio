@@ -36,8 +36,8 @@ export default function NavBar() {
     },
   ];
 
-  const items = navItems.map((item) => {
-    return <NavItem {...item} />;
+  const items = navItems.map((item, index) => {
+    return <NavItem key={index} {...item} />;
   });
 
   const [showMenu, setShowMenu] = useState(false);

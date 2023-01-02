@@ -25,8 +25,8 @@ export default function AboutMe() {
     },
   ];
 
-  const boxes = boxItems.map((item) => {
-    return <AboutBox {...item} />;
+  const boxes = boxItems.map((item, index) => {
+    return <AboutBox key={index} {...item} />;
   });
 
   return (

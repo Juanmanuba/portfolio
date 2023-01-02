@@ -83,8 +83,8 @@ export default function Skills() {
     },
   ];
 
-  const boxes = skillAreas.map((item) => {
-    return <AreaBox {...item} />;
+  const boxes = skillAreas.map((item, index) => {
+    return <AreaBox key={index} {...item} />;
   });
 
   return (
