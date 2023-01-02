@@ -15,6 +15,7 @@
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   --scroll-color: #333;
+  --bullet-color: #555;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;

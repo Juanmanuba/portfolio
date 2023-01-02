@@ -4,6 +4,7 @@ import Hero from './components/hero/hero.component';
 import NavBar from './components/nav-bar/nav-bar.component';
 import MouseScroll from './components/mouse-scroll/mouse-scroll.component';
 import Skills from './components/skills/skills.component';
+import Services from './components/services/services.component';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MouseScroll />
       <AboutMe />
       <Skills />
+      <Services />
     </div>
   );
 }

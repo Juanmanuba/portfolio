@@ -23,6 +23,7 @@
 .iconImg {
   margin-top: 0.5rem;
   font-weight: var(--font-semi-bold);
+  color: var(--bullet-color);
 }
 
 @media screen and (max-width: 992px) {
