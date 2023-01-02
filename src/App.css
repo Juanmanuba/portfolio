@@ -50,6 +50,8 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+
+  --box-shadow-params: 0 0 4px rgba(0, 0, 0, 0.15);
 }
 
 /* Responsive typography */
