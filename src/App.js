@@ -5,6 +5,7 @@ import NavBar from './components/nav-bar/nav-bar.component';
 import MouseScroll from './components/mouse-scroll/mouse-scroll.component';
 import Skills from './components/skills/skills.component';
 import Services from './components/services/services.component';
+import Qualification from './components/qualification/qualification.component';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Services />
+      <Qualification />
     </div>
   );
 }

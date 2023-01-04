@@ -1,0 +1,14 @@
+.qualificationTypeButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.typeIcon,
+.typeText {
+  font-size: 1.9rem;
+  color: var(--scroll-color);
+}
+.typeText {
+  font-weight: var(--font-semi-bold);
+}

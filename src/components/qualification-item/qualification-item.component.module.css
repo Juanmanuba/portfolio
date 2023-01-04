@@ -1,0 +1,30 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 25px;
+}
+
+.title {
+  font-size: var(--h2-font-size);
+  color: var(--bullet-color);
+}
+
+.location {
+  font-size: var(--h3-font-size);
+}
+
+.dateIcon,
+.dateText {
+  font-size: var(--normal-font-size);
+}
+
+.dateIcon {
+  margin-bottom: 2.5px;
+}
