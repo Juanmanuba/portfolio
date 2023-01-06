@@ -7,10 +7,7 @@ export default function ServiceBox({ title, icon, bulletsText, showModal }) {
     <div className={styles.serviceBox}>
       <i className={`bx ${icon} ${styles.titleIcon}`}></i>
       <h2 className={styles.boxTitle}>{title}</h2>
-      <div
-        className={`${styles.viewMoreButton} ${styles.activeModal}`}
-        onClick={showModal}
-      >
+      <div className={styles.viewMoreButton} onClick={showModal}>
         <Paragraph>View More</Paragraph>
         <i className={`uil uil-arrow-right ${styles.buttonIcon}`}></i>
       </div>

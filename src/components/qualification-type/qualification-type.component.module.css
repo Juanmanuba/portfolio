@@ -2,6 +2,16 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  transition: 0.3s;
+}
+
+.qualificationTypeButton:hover {
+  color: #555;
+  cursor: pointer;
+
+  box-shadow: var(--box-shadow-params);
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .typeIcon,

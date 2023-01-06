@@ -12,14 +12,11 @@
 }
 
 .title {
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   color: var(--bullet-color);
 }
 
-.location {
-  font-size: var(--h3-font-size);
-}
-
+.location,
 .dateIcon,
 .dateText {
   font-size: var(--normal-font-size);

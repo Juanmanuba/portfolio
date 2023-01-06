@@ -1,22 +1,32 @@
 const qualificationInfo = [
   {
     title: 'Education',
-    icon: 'bx-credit-card-front',
+    icon: 'bx-bookmark-alt',
     bulletsText: [
       {
-        text: 'I develop the user interface',
+        title: `Master in Electronic Engineering`,
+        location: 'Venezuela - USB',
+        date: 'September 2021 - Present',
       },
       {
-        text: 'Web page development',
+        title: 'Degree in Electronics Engineering',
+        location: 'Venezuela - USB',
+        date: 'January 2016 - March 2022',
       },
       {
-        text: 'I create UX element interactions',
+        title: 'High School Degree',
+        location: 'Venezuela - San Luis High School',
+        date: 'September 2010 - July 2015',
       },
       {
-        text: 'I position your company brand',
+        title: 'High School Degree',
+        location: 'Venezuela - San Luis High School',
+        date: 'September 2010 - July 2015',
       },
       {
-        text: 'Design and mockups of products for companies',
+        title: 'High School Degree',
+        location: 'Venezuela - San Luis High School',
+        date: 'September 2010 - July 2015',
       },
     ],
   },
@@ -25,29 +35,24 @@ const qualificationInfo = [
     icon: 'bx-briefcase',
     bulletsText: [
       {
-        title: '',
-        location: 'I develop the user interface',
-        date: '',
+        title: 'Head of the Finance Department',
+        location: 'Neuralgeeks',
+        date: 'October 2019 - Present',
       },
       {
-        title: '',
-        location: 'Web page development',
-        date: '',
+        title: 'Visitor Undergraduate Student',
+        location: 'UDEL, IDSL',
+        date: 'April 2021 - August 2021',
       },
       {
-        title: '',
-        location: 'I create UX element interactions',
-        date: '',
+        title: 'President',
+        location: 'Biomecatronics Research Group, USB',
+        date: 'September 2019 - November 2021',
       },
       {
-        title: '',
-        location: 'I position your company brand',
-        date: '',
-      },
-      {
-        title: '',
-        location: 'Design and mockups of products for companies',
-        date: '',
+        title: 'Vice president',
+        location: 'Electronic Tech Research Center, USB',
+        date: 'July 2018 - July 2019',
       },
     ],
   },

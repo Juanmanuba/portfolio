@@ -14,6 +14,8 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  min-width: 90%;
+  min-height: 80px;
 }
 
 .timeline {
@@ -29,8 +31,12 @@
   width: 1px;
   background-color: var(--bullet-color);
   top: 1.71rem;
-  bottom: -35px;
+  bottom: -1.71rem;
   left: 50%;
+}
+
+.timelineBarLength::after {
+  bottom: 5.65rem;
 }
 
 .container {
@@ -41,7 +47,9 @@
 .dot1,
 .dot2,
 .dot3,
-.dot4 {
+.dot4,
+.dot5,
+.dot6 {
   content: '';
   position: absolute;
   width: 20px;
@@ -69,20 +77,28 @@
 }
 
 .left > .dot1,
-.right > .dot3 {
-  top: 18rem;
+.right > .dot2 {
+  top: 1.6rem;
 }
 
-.left > .dot2,
+.left > .dot3,
 .right > .dot4 {
-  top: 1.71rem;
+  top: 17.25rem;
 }
+
+.left > .dot5,
+.right > .dot6 {
+  top: 32.9rem;
+}
+
 .left > .dot1,
-.left > .dot2 {
-  left: calc(100% - 9.75px);
+.left > .dot3,
+.left > .dot5 {
+  left: calc(100% - 10px);
 }
 
-.right > .dot3,
-.right > .dot4 {
-  right: calc(100% - 9.75px);
+.right > .dot2,
+.right > .dot4,
+.right > .dot6 {
+  right: calc(100% - 10px);
 }
