@@ -22,6 +22,39 @@
   font-size: var(--normal-font-size);
 }
 
+.dateText {
+  padding-bottom: 0.1rem;
+}
+
 .dateIcon {
   margin-bottom: 2.5px;
+}
+
+@media screen and (max-width: 646px) {
+  .title,
+  .location,
+  .dateIcon,
+  .dateText {
+    font-size: smaller;
+  }
+  .content {
+    max-height: 77.5px;
+  }
+}
+@media screen and (max-width: 595px) {
+  .dateText {
+    padding-bottom: 0.18rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .date {
+    gap: 0.2rem;
+  }
+}
+@media screen and (max-width: 362px) {
+  .dateIcon {
+    align-self: flex-start;
+    padding-top: 0.2rem;
+  }
 }

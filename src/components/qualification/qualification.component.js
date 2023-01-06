@@ -43,7 +43,9 @@ export default function Qualification() {
                   if (index % 2 !== 0) return <></>;
                   return (
                     <>
-                      <div className={styles[`dot${index + 1}`]}></div>
+                      <div
+                        className={`${styles[`dot${index + 1}`]} ${styles.dot}`}
+                      ></div>
                       <QualificationItem
                         {...qualificationInfo[chooseQualificationType]
                           .bulletsText[index]}
@@ -59,7 +61,9 @@ export default function Qualification() {
                   if (index % 2 === 0) return <></>;
                   return (
                     <>
-                      <div className={styles[`dot${index + 1}`]}></div>
+                      <div
+                        className={`${styles[`dot${index + 1}`]} ${styles.dot}`}
+                      ></div>
                       <QualificationItem
                         {...qualificationInfo[chooseQualificationType]
                           .bulletsText[index]}
