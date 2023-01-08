@@ -7,6 +7,7 @@
   align-items: center;
   box-shadow: var(--box-shadow-params);
   border-radius: 30px;
+  background-color: var(--container-color);
 }
 
 .iconImg,

@@ -9,6 +9,7 @@
   row-gap: 20px;
   border-radius: 25px;
   box-shadow: var(--box-shadow-params);
+  background-color: var(--container-color);
 }
 
 .boxTitle {

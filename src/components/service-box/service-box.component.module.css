@@ -9,6 +9,7 @@
   row-gap: 30px;
   box-shadow: var(--box-shadow-params);
   border-radius: 25px;
+  background-color: var(--container-color);
 }
 
 .viewMoreButton {

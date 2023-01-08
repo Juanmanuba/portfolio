@@ -1,18 +1,23 @@
+import { images } from '../../assets/images';
+
 const testimonialsInfo = [
   {
-    title: 'Landing page design',
-    image: 'bx-credit-card-front',
-    description: 'bx-credit-card-front',
+    title: 'Gabriel Noya',
+    image: images.gabriel,
+    description:
+      'Juan is a great person for team building because he is able to adapt and learn about anything a project may need. ',
   },
   {
-    title: 'Landing page design',
-    image: 'bx-credit-card-front',
-    description: 'bx-credit-card-front',
+    title: 'Gerardo Fernandez',
+    image: images.gerardo,
+    description:
+      'Having managed staff for over 40 years, I am convinced that he is in the top 5% of the best workers in the business.',
   },
   {
-    title: 'Landing page design',
-    image: 'bx-credit-card-front',
-    description: 'bx-credit-card-front',
+    title: 'Ricardo Silva',
+    image: images.ricardo,
+    description:
+      'Juan Manuel is a consistent, responsible, hard worker with a great capacity for hard work.',
   },
 ];
 
