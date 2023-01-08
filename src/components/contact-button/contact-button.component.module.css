@@ -1,0 +1,52 @@
+.contactButton {
+  width: 400px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+
+  box-shadow: var(--box-shadow-params);
+  border-radius: 25px;
+  background-color: var(--container-color);
+}
+
+.viewMoreButton {
+  padding-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.buttonIcon {
+  transition: 0.3s;
+}
+
+.viewMoreButton:hover .buttonIcon {
+  transform: translateX(0.5rem);
+}
+
+.titleIcon {
+  font-size: var(--big-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+  padding-bottom: 1.5rem;
+}
+
+.boxTitle {
+  font-size: var(--h3-font-size);
+}
+
+@media screen and (max-width: 992px) {
+  .titleIcon {
+    font-size: var(--h2-font-size);
+  }
+
+  .serviceBox {
+    width: 300px;
+    height: 250px;
+  }
+}

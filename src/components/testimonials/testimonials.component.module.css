@@ -1,5 +1,5 @@
 .testimonialsSection {
-  margin-bottom: 550px;
+  margin-bottom: 150px;
 }
 
 .sectionTitle {
@@ -38,7 +38,7 @@
 }
 
 .testimonialTitle {
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   color: var(--bullet-color);
   font-weight: var(--font-semi-bold);
 }

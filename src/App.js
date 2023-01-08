@@ -7,6 +7,7 @@ import Skills from './components/skills/skills.component';
 import Services from './components/services/services.component';
 import Qualification from './components/qualification/qualification.component';
 import Testimonials from './components/testimonials/testimonials.component';
+import Contact from './components/contact/contact.component';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Services />
       <Qualification />
       <Testimonials />
+      <Contact />
     </div>
   );
 }

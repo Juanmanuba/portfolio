@@ -49,6 +49,7 @@ export default function AboutMe() {
           </Paragraph>
           <Button className={styles.button}>
             Download CV <span />
+            <span />
             <i className={`${styles.uil} uil-file-alt ${styles.nav__icon}`}></i>
           </Button>
         </div>
