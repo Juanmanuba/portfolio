@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   padding: 40px;
-
   box-shadow: var(--box-shadow-params);
   border-radius: 25px;
   background-color: var(--container-color);
@@ -39,14 +38,24 @@
 .boxTitle {
   font-size: var(--h3-font-size);
 }
+.formButton {
+  align-self: flex-start;
+}
 
 @media screen and (max-width: 992px) {
-  .titleIcon {
-    font-size: var(--h2-font-size);
+  .contactButton {
+    width: 318px;
   }
+}
 
-  .serviceBox {
-    width: 300px;
-    height: 250px;
+@media screen and (max-width: 768px) {
+  .contactButton {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .contactButton {
+    width: 260px;
   }
 }

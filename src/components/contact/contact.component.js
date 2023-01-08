@@ -23,9 +23,7 @@ export default function Contact() {
           {services}
         </div>
         <div className={styles.contactForm}>
-          <h2 className={styles.contactButtonsTitle}>
-            Tell me about your project
-          </h2>
+          <h2 className={styles.contactButtonsTitle}>Tell me your project</h2>
 
           <form className={styles.contactForm}>
             <div className={styles.formItem}>
@@ -54,7 +52,7 @@ export default function Contact() {
                 placeholder="Write about your project"
               ></textarea>
             </div>
-            <Button>
+            <Button className={styles.formButton}>
               Send Message <span />
               <span />
               <i className={`uil uil-message ${styles.nav__icon}`}></i>

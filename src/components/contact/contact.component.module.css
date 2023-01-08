@@ -14,11 +14,11 @@
   justify-content: center;
   flex-wrap: wrap;
   column-gap: 10%;
+  margin: 0 30px;
 }
 .contactButtons {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   row-gap: 20px;
 }
@@ -60,11 +60,48 @@
 
 .contactFormArea textarea {
   height: 250px;
-
   resize: none;
+}
+
+.formButton {
+  align-self: flex-start;
 }
 
 .nav__icon {
   font-size: larger;
   padding-left: 0.2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .contactForm {
+    width: 318px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactButtons {
+    margin-bottom: 80px;
+  }
+  .formButton {
+    align-self: center;
+  }
+  .contactForm {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .contactForm {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .contactFormInput {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .contactFormTag {
+    margin-left: 5%;
+  }
 }
