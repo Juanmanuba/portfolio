@@ -25,5 +25,6 @@ button {
 @media screen and (max-width: 768px) {
   .button {
     align-self: center;
+    margin-top: 20px;
   }
 }

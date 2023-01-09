@@ -23,7 +23,9 @@ export default function Hero() {
           I am a newby frontend developer from Venezuela. I like to climb and
           rest.
         </Paragraph>
-        <Button className={styles.button}>Say Hello</Button>
+        <a href="#contact">
+          <Button className={styles.button}>Say Hello</Button>
+        </a>
       </div>
     </section>
   );

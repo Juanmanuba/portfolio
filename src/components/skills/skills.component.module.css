@@ -21,6 +21,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .skills {
+    padding-top: 100px;
+  }
   .areaBoxes {
     width: 80%;
   }

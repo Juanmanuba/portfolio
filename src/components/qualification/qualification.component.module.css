@@ -83,7 +83,7 @@
 
 .dot5,
 .dot6 {
-  top: 32.9rem;
+  top: 33rem;
 }
 
 .dot1,
@@ -99,13 +99,34 @@
 }
 
 @media screen and (max-width: 992px) {
+  .dot1,
+  .dot2 {
+    top: 1.4rem;
+  }
+
+  .dot3,
+  .dot4 {
+    top: 16.6rem;
+  }
+
+  .dot5,
+  .dot6 {
+    top: 31.75rem;
+  }
   .timeline::after {
-    bottom: -2.7rem;
+    bottom: -2.5rem;
   }
   .timelineBarLength::after {
     bottom: 5rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .qualificationSection {
+    padding-top: 100px;
+  }
+}
+
 @media screen and (max-width: 646px) {
   .dot {
     width: 15px;
@@ -128,12 +149,12 @@
 
   .dot3,
   .dot4 {
-    top: 13.45rem;
+    top: 12.65rem;
   }
 
   .dot5,
   .dot6 {
-    top: 25.45rem;
+    top: 23.95rem;
   }
 
   .dot1,
@@ -151,22 +172,11 @@
     bottom: -1.2rem;
   }
   .timelineBarLength::after {
-    bottom: 5rem;
-  }
-}
-@media screen and (max-width: 611px) {
-  .timeline::after {
-    bottom: -1rem;
-  }
-  .timelineBarLength::after {
-    bottom: 5rem;
+    bottom: 4.5rem;
   }
 }
 
 @media screen and (max-width: 595px) {
-  .timelineBarLength::after {
-    bottom: 5rem;
-  }
   .qualificationType {
     flex-direction: column;
     min-height: 200px;

@@ -47,10 +47,14 @@ export default function AboutMe() {
             player capable of coordinating large development teams. Willing to
             learn and obtain new skills.
           </Paragraph>
-          <Button className={styles.button}>
-            Download CV
-            <i className={`${styles.uil} uil-file-alt ${styles.nav__icon}`}></i>
-          </Button>
+          <a href="CV_EN.pdf" download="CV_JuanNunez_En">
+            <Button className={styles.button}>
+              Download CV
+              <i
+                className={`${styles.uil} uil-file-alt ${styles.nav__icon}`}
+              ></i>
+            </Button>
+          </a>
         </div>
       </div>
     </section>

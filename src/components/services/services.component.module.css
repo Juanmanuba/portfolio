@@ -38,3 +38,9 @@
   opacity: 1;
   visibility: visible;
 }
+
+@media screen and (max-width: 768px) {
+  .servicesSection {
+    padding-top: 100px;
+  }
+}

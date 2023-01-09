@@ -4,7 +4,7 @@ import ServiceItem from '../service-item/service-item.component';
 import styles from './service-modal.component.module.css';
 import Button from '../button/button.component';
 
-export default function ServiceModal({ title, icon, bulletsText, hideModal }) {
+export default function ServiceModal({ title, bulletsText, hideModal }) {
   return (
     <div className={styles.modal}>
       <h2 className={styles.serviceModalTitle}>{title}</h2>
@@ -17,10 +17,7 @@ export default function ServiceModal({ title, icon, bulletsText, hideModal }) {
           return <ServiceItem key={index} {...item} />;
         })}
       </ul>
-
-      <Button className={styles.closeButton} onClick={hideModal}>
-        Awesome
-      </Button>
+      <Button onClick={hideModal}>Awesome</Button>
     </div>
   );
 }
