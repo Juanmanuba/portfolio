@@ -6,11 +6,19 @@ import styles from './footer.component.module.css';
 export default function Footer() {
   return (
     <section className={styles.footerSection}>
-      <Title>Juanma</Title>
+      <a href="#home">
+        <Title>Juanma</Title>
+      </a>
       <div className={styles.backToSections}>
-        <Paragraph>About</Paragraph>
-        <Paragraph>Skills</Paragraph>
-        <Paragraph>Services</Paragraph>
+        <a href="#about">
+          <Paragraph>About</Paragraph>
+        </a>
+        <a href="#skills">
+          <Paragraph>Skills</Paragraph>
+        </a>
+        <a href="#services">
+          <Paragraph>Services</Paragraph>
+        </a>
       </div>
       <div className={styles.socialICons}>
         <a href="https://www.tiktok.com/@juanmanuba">

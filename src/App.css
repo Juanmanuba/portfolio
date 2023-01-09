@@ -16,6 +16,7 @@
   --container-color: #fff;
   --scroll-color: #333;
   --bullet-color: #555;
+  --swiper-theme-color: var(--scroll-color) !important;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;

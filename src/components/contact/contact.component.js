@@ -53,9 +53,10 @@ export default function Contact() {
               ></textarea>
             </div>
             <Button className={styles.formButton}>
-              Send Message <span />
-              <span />
-              <i className={`uil uil-message ${styles.nav__icon}`}></i>
+              Send Message
+              <div className={styles.rotateIcon}>
+                <i className={`uil uil-message ${styles.navIcon}`}></i>
+              </div>
             </Button>
           </form>
         </div>
