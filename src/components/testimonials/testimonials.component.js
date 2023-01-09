@@ -16,7 +16,7 @@ import testimonialsInfo from './testimonials-info';
 
 export default function Testimonials() {
   return (
-    <section className={styles.testimonialsSection}>
+    <section className={styles.testimonialsSection} id="testimonials">
       <div className={styles.sectionTitle}>
         <Title>Testimonial</Title>
         <Paragraph>My coworkers saying</Paragraph>

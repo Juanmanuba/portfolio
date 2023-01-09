@@ -15,6 +15,10 @@
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
+.scrollNavBar {
+  box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.15);
+}
+
 .nav__logo,
 .nav__toogle {
   color: var(--title-color);

@@ -24,7 +24,7 @@ export default function Services() {
   });
 
   return (
-    <section className={styles.servicesSection}>
+    <section className={styles.servicesSection} id="services">
       <div className={styles.sectionTitle}>
         <Title>Services</Title>
         <Paragraph>What I can offer</Paragraph>

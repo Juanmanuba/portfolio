@@ -1,50 +1,69 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import styles from './nav-bar.component.module.css';
 import NavItem from '../nav-item/nav-item.component';
 
 export default function NavBar() {
   const navItems = [
     {
-      href: '#home',
-      icon: 'uil-estate',
-      text: 'Home',
-    },
-    {
-      href: '#about',
+      link: '#about',
       icon: 'uil-user',
       text: 'About',
     },
     {
-      href: '#skills',
+      link: '#skills',
       icon: 'uil-file',
       text: 'Skills',
     },
     {
-      href: '#services',
+      link: '#services',
       icon: 'uil-briefcase-alt',
       text: 'Services',
     },
     {
-      href: '#portfolio',
-      icon: 'uil-scenery',
-      text: 'Portfolio',
+      link: '#qualification',
+      icon: 'uil-graduation-cap',
+      text: 'Qualification',
     },
     {
-      href: '#contact',
+      link: '#testimonials',
+      icon: 'uil-scenery',
+      text: 'Testimonials',
+    },
+    {
+      link: '#contact',
       icon: 'uil-message',
       text: 'Contact',
     },
   ];
 
+  const [showScrollNavBar, setShowScrollNavBar] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
+
+  const onScroll = useCallback(() => {
+    //console.log(window.pageYOffset);
+    if (window.pageYOffset >= 80) {
+      setShowScrollNavBar(false);
+    } else {
+      setShowScrollNavBar(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [onScroll]);
+
   const items = navItems.map((item, index) => {
     return <NavItem key={index} {...item} />;
   });
 
-  const [showMenu, setShowMenu] = useState(false);
-
   return (
-    <nav className={styles.nav__bar}>
-      <a href="index.html" className={styles.nav__logo}>
+    <nav
+      className={`${styles.nav__bar} ${
+        showScrollNavBar ? styles.scrollNavBar : ''
+      }`}
+    >
+      <a href="#home" className={styles.nav__logo}>
         Juanma
       </a>
 

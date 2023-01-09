@@ -12,7 +12,7 @@ export default function Contact() {
   });
 
   return (
-    <section className={styles.contactSection}>
+    <section className={styles.contactSection} id="contact">
       <div className={styles.sectionTitle}>
         <Title>Contact Me</Title>
         <Paragraph>or else</Paragraph>

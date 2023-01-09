@@ -1,3 +1,7 @@
+.servicesSection {
+  padding-top: 130px;
+}
+
 .sectionTitle {
   display: flex;
   flex-direction: column;
@@ -10,7 +14,7 @@
   gap: 60px;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 30px 150px;
+  margin: 0 30px;
 }
 
 .serviceModal {

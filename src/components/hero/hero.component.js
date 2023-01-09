@@ -9,7 +9,7 @@ import Icon from '../icon/icon.component';
 
 export default function Hero() {
   return (
-    <section className={styles.heroSection}>
+    <section className={styles.heroSection} id="home">
       <div className={styles.socials}>
         <Icon link="https://instagram.com/juanmanuba/" icon="uil-instagram" />
         <Icon link="https://github.com/Juanmanuba" icon="uil-github-alt" />

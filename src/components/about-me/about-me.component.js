@@ -30,7 +30,7 @@ export default function AboutMe() {
   });
 
   return (
-    <section className={styles.aboutMe}>
+    <section className={styles.aboutMe} id="about">
       <div className={styles.sectionTitle}>
         <Title>About Me</Title>
         <Paragraph>My introduction</Paragraph>
@@ -47,17 +47,10 @@ export default function AboutMe() {
             player capable of coordinating large development teams. Willing to
             learn and obtain new skills.
           </Paragraph>
-          <a
-            href="../../assets/pdfs/Juan-Nunez-CV_EN.pdf"
-            download="JuanNunez_CV.pdf"
-          >
-            <Button className={styles.button}>
-              Download CV
-              <i
-                className={`${styles.uil} uil-file-alt ${styles.nav__icon}`}
-              ></i>
-            </Button>
-          </a>
+          <Button className={styles.button}>
+            Download CV
+            <i className={`${styles.uil} uil-file-alt ${styles.nav__icon}`}></i>
+          </Button>
         </div>
       </div>
     </section>

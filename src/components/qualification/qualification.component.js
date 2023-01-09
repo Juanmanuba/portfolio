@@ -22,7 +22,7 @@ export default function Qualification() {
   });
 
   return (
-    <section className={styles.qualificationSection}>
+    <section className={styles.qualificationSection} id="qualification">
       <div className={styles.sectionTitle}>
         <Title>Qualification</Title>
         <Paragraph>My personal journey</Paragraph>

@@ -11,7 +11,7 @@ export default function Skills() {
   });
 
   return (
-    <section className={styles.skills}>
+    <section className={styles.skills} id="skills">
       <div className={styles.sectionTitle}>
         <Title>Skills</Title>
         <Paragraph>My technical level</Paragraph>
