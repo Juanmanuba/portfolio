@@ -14,8 +14,8 @@ const contactInfo = [
   {
     icon: 'bxl-telegram',
     social: 'Telegram',
-    info: '@NintiaMoka',
-    href: 'https://telegram.me/NintiaMoka',
+    info: '@Jumanuba',
+    href: 'https://telegram.me/',
   },
 ];
 
