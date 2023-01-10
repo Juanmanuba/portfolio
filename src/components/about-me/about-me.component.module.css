@@ -38,6 +38,11 @@
   gap: 20px;
   margin: 30px;
 }
+
+.button {
+  margin-top: 1rem;
+}
+
 .nav__icon {
   font-size: larger;
   padding-left: 0.2rem;
@@ -74,7 +79,7 @@
     margin: 0 30px;
   }
   .aboutMeText {
-    width: 60%;
+    width: 70%;
     margin: 0 30px;
   }
 }
@@ -93,5 +98,8 @@
   .aboutBoxes {
     width: 100%;
     flex-flow: row wrap;
+  }
+  .aboutMeText {
+    align-items: center;
   }
 }

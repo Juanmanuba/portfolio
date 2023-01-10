@@ -18,16 +18,6 @@ const qualificationInfo = [
         location: 'Vzla - San Luis HS',
         date: 'Sep 2010 - Jul 2015',
       },
-      {
-        title: 'HS Degree',
-        location: 'Vzla - San Luis HS',
-        date: 'Sep 2010 - Jul 2015',
-      },
-      {
-        title: 'HS Degree',
-        location: 'Vzla - San Luis HS',
-        date: 'Sep 2010 - Jul 2015',
-      },
     ],
   },
   {
@@ -48,16 +38,6 @@ const qualificationInfo = [
         title: 'President',
         location: 'Biomecatronics Group, USB',
         date: 'Sep 2019 - Nov 2021',
-      },
-      {
-        title: 'Vice president',
-        location: 'Electronics Group, USB',
-        date: 'Jul 2018 - Jul 2019',
-      },
-      {
-        title: 'Vice president',
-        location: 'Electronics Group, USB',
-        date: 'Jul 2018 - Jul 2019',
       },
       {
         title: 'Vice president',
