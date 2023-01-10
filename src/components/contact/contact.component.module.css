@@ -47,6 +47,11 @@
   border-radius: 0.75rem;
   padding: 1.5rem;
   z-index: 1;
+  transition: 0.3s;
+}
+.formItem > input:focus,
+.formItem > textarea:focus {
+  border: 2px solid var(--title-color);
 }
 
 .contactFormTag {
