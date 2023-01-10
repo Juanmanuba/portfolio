@@ -47,7 +47,7 @@
   border-radius: 0.75rem;
   padding: 1.5rem;
   z-index: 1;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 .formItem > input:focus,
 .formItem > textarea:focus {
