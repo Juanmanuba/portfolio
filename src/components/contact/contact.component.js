@@ -23,7 +23,7 @@ export default function Contact() {
           {services}
         </div>
         <div className={styles.contactForm}>
-          <h2 className={styles.contactButtonsTitle}>Tell me your project</h2>
+          <h2 className={styles.contactButtonsTitle}>Share your project</h2>
 
           <form className={styles.contactForm}>
             <div className={styles.formItem}>

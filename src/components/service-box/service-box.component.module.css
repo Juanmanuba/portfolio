@@ -1,12 +1,12 @@
 .serviceBox {
   width: 400px;
-  height: 350px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
   padding: 40px;
-  row-gap: 30px;
+  row-gap: 10px;
   box-shadow: var(--box-shadow-params);
   border-radius: 25px;
   background-color: var(--container-color);
@@ -30,6 +30,7 @@
 
 .titleIcon {
   font-size: 2rem;
+  padding-bottom: 2rem;
 }
 
 .boxTitle {
@@ -37,12 +38,11 @@
 }
 
 @media screen and (max-width: 992px) {
-  .titleIcon {
-    font-size: var(--h2-font-size);
-  }
-
   .serviceBox {
     width: 300px;
     height: 250px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
   }
 }
