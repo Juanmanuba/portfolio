@@ -1,64 +1,64 @@
 const servicesInfo = [
   {
-    title: 'Landing page design',
+    title: 'Frontend Web Development',
     icon: 'bx-credit-card-front',
     bulletsText: [
       {
-        text: 'I develop the user interface',
+        text: 'Develop responsive and user-friendly websites',
       },
       {
-        text: 'Web page development',
+        text: 'Ensure website accessibility',
       },
       {
-        text: 'I create UX element interactions',
+        text: 'Integrate websites with APIs to enable dynamic content and functionality',
       },
       {
-        text: 'I position your company brand',
+        text: 'Create and manage databases using SQL and NoSQL technologies',
       },
       {
-        text: 'Design and mockups of products for companies',
+        text: 'Implement security measures to protect websites',
       },
     ],
   },
   {
-    title: 'Data analysis for companies',
-    icon: 'bx-credit-card-front',
+    title: 'Data Analysis',
+    icon: 'bx-data',
     bulletsText: [
       {
-        text: 'I develop the user interface',
+        text: 'Develop machine learning models with Python',
       },
       {
-        text: 'Web page development',
+        text: 'Analyze large datasets',
       },
       {
-        text: 'I create UX element interactions',
+        text: 'Create data visualizations and dashboards',
       },
       {
-        text: 'I position your company brand',
+        text: 'Implement natural language processing techniques for text data analysis',
       },
       {
-        text: 'Design and mockups of products for companies',
+        text: 'Utilize deep learning techniques for image and text classification',
       },
     ],
   },
   {
-    title: 'Machine Learning strategies',
-    icon: 'bx-credit-card-front',
+    title: 'Technical Consulting and PM',
+    icon: 'bx-message-rounded-dots',
     bulletsText: [
       {
-        text: 'I develop the user interface',
+        text: 'Provide technical consulting on web development, machine learning and blockchain',
       },
       {
-        text: 'Web page development',
+        text: 'Develop and manage project plans and schedules',
       },
       {
-        text: 'I create UX element interactions',
+        text: 'Ensure timely and on-budget project delivery',
       },
       {
-        text: 'I position your company brand',
+        text: 'Implement quality assurance processes for high-quality project delivery',
       },
       {
-        text: 'Design and mockups of products for companies',
+        text: 'Ensure effective communication and collaboration with clients and stakeholders',
       },
     ],
   },

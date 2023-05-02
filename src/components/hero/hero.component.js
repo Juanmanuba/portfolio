@@ -18,10 +18,9 @@ export default function Hero() {
       <img src={images.kkk} alt="" className={styles.home__img} />
       <div className={styles.leftSideText}>
         <Title>Juan Nuñez</Title>
-        <Subtitle>Frontend Developer</Subtitle>
+        <Subtitle>Software Developer</Subtitle>
         <Paragraph>
-          I am a newby frontend developer from Venezuela. I like to climb and
-          rest.
+          Software Engineer | JavaScript | React | Python | C#
         </Paragraph>
         <a href="#contact">
           <Button className={styles.button}>Say Hello</Button>

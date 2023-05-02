@@ -15,17 +15,17 @@ const skillAreas = [
         level: 'Intermediate',
       },
       {
-        skill: 'Git',
+        skill: 'React',
         level: 'Intermediate',
       },
       {
-        skill: 'React',
-        level: 'Intermediate',
+        skill: 'Next',
+        level: 'Basic',
       },
     ],
   },
   {
-    title: 'Data Analyst',
+    title: 'Data Scientist',
     bullets: [
       {
         skill: 'Python',
@@ -44,33 +44,41 @@ const skillAreas = [
         level: 'Intermediate',
       },
       {
-        skill: 'MATLAB',
+        skill: 'Sklearn',
+        level: 'Intermediate',
+      },
+      {
+        skill: 'Pandas',
         level: 'Intermediate',
       },
     ],
   },
   {
-    title: 'Cryptocurrencies',
+    title: 'Other Skills',
     bullets: [
       {
-        skill: 'Cryptos',
-        level: 'Intermediate',
-      },
-      {
-        skill: 'NFTs',
+        skill: 'Git',
         level: 'Advanced',
       },
       {
-        skill: 'Bitcoin',
-        level: 'Intermediate',
-      },
-      {
-        skill: 'Rust',
-        level: 'Intermediate',
-      },
-      {
-        skill: 'Solidity',
+        skill: 'C#',
         level: 'Basic',
+      },
+      {
+        skill: 'C++',
+        level: 'Basic',
+      },
+      {
+        skill: 'Agile',
+        level: 'Intermediate',
+      },
+      {
+        skill: 'Scrum',
+        level: 'Intermediate',
+      },
+      {
+        skill: 'MATLAB',
+        level: 'Intermediate',
       },
     ],
   },

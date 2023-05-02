@@ -11,7 +11,7 @@ export default function AboutMe() {
     {
       icon: 'bx-dumbbell',
       title: 'Experience',
-      text: '1 year',
+      text: '2 year',
     },
     {
       icon: 'bx-briefcase-alt',
@@ -42,12 +42,13 @@ export default function AboutMe() {
         <div className={styles.aboutMeText}>
           <div className={styles.aboutBoxes}>{boxes}</div>
           <Paragraph>
-            Enthusiastic about web programming, design of control algorithms and
-            game programming. Good interpersonal skills to be an excellent team
-            player capable of coordinating large development teams. Willing to
-            learn and obtain new skills.
+            Software developer with expertise in Python, React, JavaScript,
+            HTML, CSS and blockchain. Experienced in machine learning and deep
+            learning projects. Collaborates effectively to deliver high-quality
+            projects on time and on budget. Strong interpersonal skills and a
+            can-do attitude.
           </Paragraph>
-          <a href="CV_EN.pdf" download="CV_JuanNunez_En">
+          <a href="Juan_Nunez_CV.pdf" download="Juan_Nunez_CV.pdf">
             <Button className={styles.button}>
               Download CV
               <i

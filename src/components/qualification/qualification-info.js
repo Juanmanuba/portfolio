@@ -25,9 +25,9 @@ const qualificationInfo = [
     icon: 'bx-briefcase',
     bulletsText: [
       {
-        title: 'Head of Finance',
-        location: 'Neuralgeeks',
-        date: 'Oct 2019 - Present',
+        title: 'Junior Software Engineer',
+        location: 'Nintia Estate',
+        date: 'Jan 2021 - Present',
       },
       {
         title: 'Undergrad Visitor',
@@ -35,14 +35,14 @@ const qualificationInfo = [
         date: 'Apr 2021 - Aug 2021',
       },
       {
-        title: 'President',
+        title: 'Software Thesis Work ',
         location: 'Biomecatronics Group, USB',
-        date: 'Sep 2019 - Nov 2021',
+        date: 'Oct 2019 - Jul 2021',
       },
       {
-        title: 'Vice president',
-        location: 'Electronics Group, USB',
-        date: 'Jul 2018 - Jul 2019',
+        title: 'Software Researcher',
+        location: 'Simon Bolivar University',
+        date: 'Apr 2019 - Dic 2019',
       },
     ],
   },
