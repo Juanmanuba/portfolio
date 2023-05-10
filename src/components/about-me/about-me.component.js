@@ -48,7 +48,7 @@ export default function AboutMe() {
             projects on time and on budget. Strong interpersonal skills and a
             can-do attitude.
           </Paragraph>
-          <a href="Juan_Nunez_CV.pdf" download="Juan_Nunez_CV.pdf">
+          <a href="Juan_Nunez_Resume.pdf" download="Juan_Nunez_Resume.pdf">
             <Button className={styles.button}>
               Download CV
               <i

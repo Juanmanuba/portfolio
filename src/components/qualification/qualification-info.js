@@ -26,7 +26,7 @@ const qualificationInfo = [
     bulletsText: [
       {
         title: 'Junior Software Engineer',
-        location: 'Nintia Estate',
+        location: 'Web3 Project',
         date: 'Jan 2021 - Present',
       },
       {
