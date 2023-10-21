@@ -8,8 +8,8 @@ const contactInfo = [
   {
     icon: 'bxl-whatsapp',
     social: 'Whatsapp',
-    info: '+58 4241530922',
-    href: 'https://wa.me/+584241530922',
+    info: '+34615665147',
+    href: 'https://wa.me/+34615665147',
   },
   {
     icon: 'bxl-telegram',

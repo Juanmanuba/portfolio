@@ -4,7 +4,12 @@ const qualificationInfo = [
     icon: 'bx-bookmark-alt',
     bulletsText: [
       {
-        title: `MSEE (Electronics)`,
+        title: `Master (Big Data)`,
+        location: 'Spain - EUDE',
+        date: 'Oct 2023 - Present',
+      },
+      {
+        title: `MSEE (AI - Machine Learning)`,
         location: 'Vzla - USB',
         date: 'Sep 2021 - Present',
       },
